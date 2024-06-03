@@ -23,7 +23,7 @@ contract Project{
         uint price;
         uint validity;
         uint rating;
-        string review;
+        string review; 
         address owner;
         uint course_no;
         uint received_amount;
