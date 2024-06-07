@@ -6,7 +6,7 @@ contract Project{
 
     struct Proposal{
 
-    uint id;
+    uint id; 
     string name;
     string content; 
     uint amount;
