@@ -5,7 +5,7 @@ pragma solidity >=0.7.0 <0.9.0;
 contract Project{ 
 
     struct Proposal{
-
+ 
     uint id; 
     string name;
     string content; 
