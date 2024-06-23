@@ -12,7 +12,7 @@ contract Project{
     uint amount;
     address payable receipient;
     uint votes;
-    bool isExecuted;
+    bool isExecuted; 
     
 }
 
