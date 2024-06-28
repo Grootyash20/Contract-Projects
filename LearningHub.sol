@@ -8,7 +8,7 @@ contract Project{
  
     uint id; 
     string name;
-    string content; 
+    string content;
     uint amount;
     address payable receipient;
     uint votes;
