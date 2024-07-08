@@ -68,7 +68,7 @@ contract Project{
     }
 
     function askQuestion(address questioner, string memory question) public{
-        require(users[questioner] == true, "You are not a registered user to the system, Please register yourself");
+        require(users[questioner] == true, "You are not a registered user to the system, Kindly register yourself");
 
         questions[questioner].push(Question(
             question,
